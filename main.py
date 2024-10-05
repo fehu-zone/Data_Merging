@@ -80,7 +80,6 @@ for index, row in df.iterrows():
 # I deleted the poster link column. You may want to delete it if you wish. Delete this line of code if you want
 df.drop(columns=['Poster_Link'], inplace=True, errors='ignore')
 
-# Sütunları kontrol et
 print("Updated DataFrame columns:", df.columns.tolist())
 
 output_file = 'data/updated_imdb_top_1000_v2.csv'  # new filename
